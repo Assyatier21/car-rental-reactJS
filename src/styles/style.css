@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.nav-item {
+  margin-left: 10px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+/* -----TOP----- */
+.navbar,
+.top {
+  background-color: #f1f3ff !important;
+}
+.left {
+  padding-left: 130px;
+  padding-top: 118px;
+  padding-bottom: 215px;
+  padding-right: 50px;
+}
+.left h2 {
+  font-size: 36px;
+}
+.left p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: justify;
+}
+.right {
+  padding-top: 20px;
+}
+.right .image {
+  height: 100%;
+  position: relative;
+}
+.right .image img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-width: 704px;
+  width: 100%;
+}
+/* -----TOP----- */
+
+/* -----MID----- */
+.mid .card {
+  margin-top: -50px;
+}
+.mid .card.w-75 {
+  width: 85% !important;
+  height: auto;
+}
+.mid .card .card-body {
+  display: flex;
+  flex-direction: row;
+}
+.mid-res .card {
+  margin-top: -50px;
+}
+.mid-res .card.w-75 {
+  width: 85% !important;
+  height: auto;
+}
+.mid-res .card .card-body {
+  display: flex;
+  flex-direction: row;
+}
+.search-button {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 3rem;
+}
+.w-75.type {
+  width: 95% !important;
+  appearance: auto !important;
+}
+/* -----MID----- */
+
+/* RESULT SECTION */
+.bg-blue {
+  background-color: #f1f3ff;
+  height: 200px;
+}
+.bg-blue h2 {
+  display: none;
+}
+.res {
+  padding: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center !important;
+}
+.res .col {
+  display: flex;
+  justify-content: center;
+}
+/* RESULT SECTION */
+
+/* DETAILS CARD */
+.details-card {
+  display: flex;
+  justify-content: center;
+}
+.details-card .card.w-75 {
+  width: 95% !important;
+}
+.details-card .card .card-body .image img {
+  max-width: 250px;
+  width: 100%;
+  margin-bottom: 35px;
+}
+.details-card .card .card-body .details-car {
+  display: flex;
+  flex-direction: column;
+}
+/* DETAILS CARD */
+
+/* -----FOOTER----- */
+.footer .footer-body {
+  padding: 8rem;
+}
+.details {
+  font-size: 14px;
+  line-height: 20px;
+}
+.details.link {
+  font-weight: 500;
+  color: black;
+  cursor: pointer;
+}
+/* -----FOOTER----- */
+
+/* RESPONSIVE */
+@media screen and (max-width: 991px) {
+  .left {
+    padding: 100px;
+  }
+  .mid .card .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .mid-res .card .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .search-button {
+    margin-top: 25px;
+    align-items: flex-start !important;
+    padding-left: 0px !important;
+  }
+  .footer-body {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer-body .col-lg-4 {
+    margin-bottom: 20px;
+  }
+  .footer-body .col-lg-3 {
+    margin-bottom: 20px;
+  }
+  .footer-body .col-lg-2 {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .top {
+    margin-bottom: 30px;
+  }
+  .fw-bold.title {
+    font-size: 25px;
+  }
+  .left {
+    padding: 35px;
+  }
+  .footer .footer-body {
+    padding: 3rem;
+  }
+}
+/* RESPONSIVE */
